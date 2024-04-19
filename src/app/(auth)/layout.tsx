@@ -16,8 +16,7 @@ export default function AuthLayout({
 }: {
   children: React.ReactNode;
 }) {
-    const pathname=usePathname()
-   
+    const pathname=usePathname()   
 
   return (
     <div>      
