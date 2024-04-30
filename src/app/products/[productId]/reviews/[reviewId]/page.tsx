@@ -1,9 +1,9 @@
+'use client'
 // param props provided by next js to access the productId
 import { notFound } from "next/navigation";
 
 const getRandomInt=(count:number)=>{
-return Math.floor(Math.random()*count)
-}
+return Math.floor(Math.random()*count)}
 
 
 const ReviewDetail = ({params}:{params:{productId:string; reviewId:string}}) => {
